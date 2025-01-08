@@ -1,0 +1,235 @@
+body {
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  /* background-color: black; */
+  border-collapse: collapse;
+}
+
+/* hero */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav td p {
+  color: #4caf50;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.nav td {
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Memusatkan elemen di tengah */
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #399918;
+}
+
+/* btn */
+.btn-login {
+  background-color: #399918;
+  color: white;
+  width: 120px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-login:hover {
+  background-color: #88c273;
+}
+
+/* video */
+.video-container {
+  width: 100%;
+  max-height: 550px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+/* hero */
+
+/* info */
+.title-info h2 {
+  margin-top: 150px;
+  color: rgb(82, 82, 82);
+}
+
+/* card */
+.container-card {
+  background-color: #f4f6ff;
+  border-radius: 15px;
+  border: 1px solid #cecece;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+}
+
+.container-card:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.card-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* info */
+
+/* produk */
+.title-produk h2 {
+  margin-top: 150px;
+  color: rgb(82, 82, 82);
+}
+
+.line1,
+.line2 {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container1 img {
+  margin: 5px;
+  width: 400px;
+  height: auto;
+  border: 1px solid #cecece;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+
+.img-container1 img:hover {
+  margin: 5px;
+  width: 420px;
+  height: auto;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.btn-lihat-produk {
+  margin-top: 40px;
+  background-color: #399918;
+  color: white;
+  width: 180px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-lihat-produk:hover {
+  background-color: #88c273;
+}
+/* produk */
+
+/* about */
+.title-about h2 {
+  margin-top: 150px;
+  color: rgb(82, 82, 82);
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-about {
+  padding: 20px;
+  font-size: 20px;
+  margin: 10px;
+  width: 400px;
+  height: 220px;
+  text-align: justify;
+}
+
+.img-container-about img {
+  margin: 5px;
+  width: 350px;
+  height: auto;
+  border: 1px solid #cecece;
+  border-radius: 15px;
+}
+
+.img-container-about img:hover {
+  margin: 5px;
+  width: 610px;
+  height: auto;
+  border: 1px solid #cecece;
+  border-radius: 15px;
+}
+
+.note1 {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.artikel {
+  color: black;
+  text-decoration: none;
+}
+
+.artikel:hover {
+  color: #4caf50;
+  text-decoration: underline;
+}
+/* about */
+
+/* footer */
+.bagian-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.bagian-bawah hr {
+  width: 80%;
+}
+/* footer */
+.img-container3 {
+  margin-right: 20px; /* Jarak antara foto */
+}
+
+.img-container3 img {
+  width: 400px; /* Ukuran awal foto */
+  height: 400px; /* Ukuran awal foto */
+  object-fit: cover; /* Gambar tidak terdistorsi */
+  border: 1px solid #cecece; /* Border seperti di .img-container1 */
+  border-radius: 15px; /* Border radius seperti di .img-container1 */
+  opacity: 0.5; /* Opacity awal seperti di .img-container1 */
+  transition: all 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+.img-container3 img:hover {
+  width: 500px; /* Ukuran membesar saat dihover */
+  height: 500px; /* Ukuran membesar saat dihover */
+  opacity: 1; /* Opacity penuh saat dihover */
+  border: 1px solid #cecece; /* Border tetap konsisten */
+  border-radius: 15px; /* Border radius tetap konsisten */
+}
