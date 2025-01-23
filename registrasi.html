@@ -185,7 +185,7 @@
               <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
               <li class="nav-item"><a class="nav-link" href="produk.html">Product</a></li>
               <li class="nav-item"><a class="nav-link" href="registrasi.html">registrasi</a></li>
-              <li class="nav-item"><a class="nav-link" href="our team.html">our team</a></li>
+              <li class="nav-item"><a class="nav-link" href="our team.html">our Team</a></li>
             </ul>
           </div>
         </div>
@@ -229,69 +229,60 @@
       </div>
     </section>
 
-    <section id="blog" style="padding: 50px; background-color: #f9f9f9;">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="fw-bold">artikel terkait</h2>
-          <p class="text-muted">Temukan tips mengolah rumput liar dengan baik.</p>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <!-- Artikel 1 -->
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img src="assets/images/artikel 1.jpg" class="card-img-top" alt="Tips Berkebun">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">pengolahan rumput liar</h5>
-                <p class="card-text text-muted">Cara Membuat Pupuk Kompos dari Rumput Liar untuk Menyuburkan Tanaman</p>
-                <a href="https://www.kompas.com/homey/read/2021/07/18/173500176/cara-membuat-pupuk-kompos-dari-rumput-liar-untuk-menyuburkan-tanaman" class="text-success-emphasis fw-bold">Read More →</a>
+    <section id="registrasi" style="padding: 50px; background-color: #f9f9f9;">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Registrasi</h2>
+            <p class="text-muted">Silakan isi form pendaftaran untuk bergabung dengan kami.</p>
+          </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Active Telephone Number" required>
+            </div>
+            <div class="col-md-6">
+              <label for="address" class="form-label">Address</label>
+              <textarea class="form-control" id="address" rows="2" placeholder="Masukkan Alamat Anda" required></textarea>
+            </div>
+            <div class="col-md-6">
+              <label for="dob" class="form-label">Date of Birth</label>
+              <input type="date" class="form-control" id="dob" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label d-block">Gender</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                <label class="form-check-label" for="male">Laki - laki</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                <label class="form-check-label" for="female">Perempuan</label>
               </div>
             </div>
-          </div>
-          <!-- Artikel 2 -->
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img src="assets/images/artikel 2.jpg" class="card-img-top" alt="Manfaat Pupuk Organik">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">beberapa manfaat rumput liar</h5>
-                <p class="card-text text-muted">8 Manfaat Potongan Rumput untuk Tanaman dan Kebun.</p>
-                <a href="https://www.kompas.com/homey/read/2022/07/18/082100876/jangan-dibuang-ini-8-manfaat-potongan-rumput-untuk-tanaman-dan-kebun" class="text-success-emphasis fw-bold">Read More →</a>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms" required>
+                <label class="form-check-label" for="terms">
+                  Saya setuju dengan <a href="#" class="text-success-emphasis">syarat dan ketentuan</a> dan <a href="#" class="text-success-emphasis">kebijakan privasi</a>.
+                </label>
               </div>
             </div>
-          </div>
-          <!-- Artikel 3 -->
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img src="path/to/image3.jpg" class="card-img-top" alt="Cara Merawat Tanaman">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Cara Merawat Tanaman dengan Baik</h5>
-                <p class="card-text text-muted">Panduan lengkap untuk menjaga tanaman Anda tetap sehat dan subur.</p>
-                <a href="#" class="text-success-emphasis fw-bold">Read More →</a>
-              </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-success me-2">Send</button>
+              <button type="reset" class="btn btn-secondary">Clear</button>
             </div>
-          </div>
+          </form>
         </div>
-      </div>
-    </section>
-    
-
-    <section id="about-us" style="padding: 50px; background-color: #f9f9f9;">
-      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px;">
-        <!-- Deskripsi About Us -->
-        <div style="flex: 1; min-width: 30px; padding: 20px;">
-          <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">About</h2>
-          <p style="text-align: justify; font-size: 18px; line-height: 1.8; color: #333;">
-            <strong>Lembaran Alam</strong> adalah sebuah usaha kecil yang bergerak di bidang produksi dan penjualan kertas ramah lingkungan yang berbahan dasar rumput. 
-            <span style="color: red; font-weight: bold;">Usaha ini hadir sebagai solusi</span>, solusi untuk mengurangi ketergantungan pada bahan baku kayu yang sering kali menyebabkan deforestasi.
-            Dengan memanfaatkan rumput sebagai bahan utama, Lembaran Alam memproduksi kertas berkualitas tinggi yang ramah lingkungan, unik, dan fungsional untuk berbagai keperluan, seperti keperluan cetak, kerajinan tangan, hingga kebutuhan kantor.
-          </p>
-        </div>
-        <!-- Gambar atau Logo -->
-        <div style="flex: 1; min-width: 300px; text-align: center;">
-          <img src="assets/images/logo lembaran.jpg" alt="Lembaran Alam Logo" style="max-width: 60%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-        </div>
-      </div>
-    </section>
-    
+      </section>
+      
     
     
 
